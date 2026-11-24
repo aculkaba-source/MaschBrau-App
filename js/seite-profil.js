@@ -26,6 +26,7 @@
         '<a href="#/abo">' + icon("abo") + "<span>Mein Abo</span><small>" + (z.abo ? "aktiv" : "keins") + "</small>" + icon("weiter") + "</a>" +
         '<a href="#/karte">' + icon("stern") + "<span>Punkte &amp; Prämien</span><small>" + F.zahl(z.punkte) + "</small>" + icon("weiter") + "</a>" +
         '<a href="#/warenkorb">' + icon("korb") + "<span>Warenkorb</span>" + icon("weiter") + "</a>" +
+        '<a href="https://aculkaba-source.github.io/Brauerei-Website/">' + icon("info") + "<span>Website von MaschBrau</span>" + icon("weiter") + "</a>" +
         "</nav>";
 
       html += '<section class="karte-box"><h2>Darstellung</h2>' +
